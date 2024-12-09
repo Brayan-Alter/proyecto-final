@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 40px;+
+    
+}
+hr{
+    margin: 20px 0;
+}
+/*estilos del menu*/
+.menu-nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    max-width: 90px;
+}
+.menu{
+    margin: 0 20px;
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    gap: 10px;
+}
+.btn-menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    
+}
+.activo{
+    background-color: azure;
+    color: rgb(0, 195, 255);
+    border: 1px solid;
+    border-radius: 5px;
+}
+.btn-menu:hover{
+color: rgb(21, 23, 126);
+}
+
+/*contenidos*/
+
+.portada{
+    max-width: 500px;
+}
+
+
+
+
+/*estilo de pie*/
+.pie{
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+/*publicidad*/
+.publicidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+   
+
+}
+.publicidad img{
+    display: block;
+    margin: 0 auto;
+    max-height: 500px;
+    max-width: 500px;
+}
+   
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.tarjeta{
+    border: 2px solid rgb(0, 63, 100);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.tarjeta h3{
+    color: darkgray;
+    
+}
+.tarjeta a{
+    color: rgb(5, 229, 236);
+    text-decoration: none;
+}
+.contenidodevideo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 400px;
+    align-content: center;
+    margin: auto;
+}
+.formulario{
+   
+
+box-sizing: border-box;
+}
+.botonde [type="submit"] {
+    
+    
+    
+        width: 48%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            
+            
+        font-size: 16px;
+            cursor: pointer;
+            
+            
+        transition: background-color 0.3s;
+        }
+        
+        button[type="submit"]:hover {
+            
+      
+        
+          
+        background-color: #45a049;
+        }
+    
+
+.botonde [type="reset"] {
+    
+    
+    
+            width: 48%;
+                padding: 10px;
+                background-color: #af4c4c;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                
+                
+            font-size: 16px;
+                cursor: pointer;
+                
+                
+            transition: background-color 0.3s;
+            }
+            
+            button[type="reset"]:hover {
+                
+          
+            
+              
+            background-color: #a04545;
+            }
+.noti{
+    border: 2px solid rgb(0, 63, 100);
+    border-radius: 8px;
+    padding: 20px;
+    display: grid;
+    align-content: center;
+    gap: 50px;
+}
+.notici{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    border: 2px solid rgb(0, 63, 100);
+    border-radius: 8px;
+    padding: 20px;
+
+    gap: 50px;
+}
+            
+            
+            
+    
+        
+        
+        
